@@ -1,0 +1,12 @@
+.btn.btn-delete {
+    background: brown;
+    border: 1px solid red;
+    color: red;
+  }
+  
+.btn.btn-delete:hover,
+.btn.btn-delete:focus-visible {
+    background: white;
+  }
+
+  

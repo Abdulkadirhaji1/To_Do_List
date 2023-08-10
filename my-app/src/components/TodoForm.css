@@ -1,0 +1,41 @@
+.new-item-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .form-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+  
+  .new-item-form input {
+    outline: none;
+    border: 1px solid lightblue;
+    background: blue;
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+    color: white;
+  }
+  
+  .new-item-form input:focus {
+    border: 1px solid lightskyblue;
+  }
+  
+  .btn {
+    background: blue;
+    border: 1px solid lightblue;
+    color: lightblue;
+    padding: 0.25em 0.5em;
+    border-radius: 0.25em;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .btn:hover,
+  .btn:focus-visible {
+    background: blue;
+  }
+  
+  
